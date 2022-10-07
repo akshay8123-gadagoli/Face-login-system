@@ -35,10 +35,10 @@ AddHandler cgi-script .py .cgi .pl .asp
 at the end of the file. Then save & exit
 - Then run XAMPP & go to `localhost/face-recognition-login-system/login.html`
 - Put all the images of students in the 'students' folder 
-  <img src='Preview/n1.png'>
+  
 - Pictures must be in the format (email_address_of_student).jpg 
  
- <img src='Preview/n2.png'><br>
+
 <b>Optional -</b> <i>you can create a seperate registration form for students, where they may upload their picture and the picture gets stored as (email_address).jpg in the 'students' folder.</i>
 
 <hr/>
