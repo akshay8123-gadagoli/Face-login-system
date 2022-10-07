@@ -46,17 +46,17 @@ at the end of the file. Then save & exit
 <h2> Making it work for Windows </h2>
 <p>
 Go to the python's installed location , in my case it was (C:\Python3.10) and right click on the 
-python39 folder and go to security tab and give "Full Control" permission to users
+python3.10folder and go to security tab and give "Full Control" permission to users
 </p>
 </br/>
 <p>
 And then go the scripts folder in python's installed path
-(C:\Python39\Scripts)
+(C:\Python3.10\Scripts)
 </p>
 and run the below commands in that folder 
 <br/>
 
-Command 1 : `C:\python39\python.exe -m pip install --upgrade pip --user`
+Command 1 : `C:\python3.10\python.exe -m pip install --upgrade pip --user`
 
 In the above command replace the exe path with your path
 
