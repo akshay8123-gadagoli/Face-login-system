@@ -3,14 +3,13 @@
 <h4 align="center"> :camera: A facial recognition based login system using Python,HTML,CSS and Bootstrap 
 </h4>
 <h2>Preview</h2>
-<img src="Preview/p1.png">
-<img src="Preview/p2.png">
+
 <hr/>
 <h2> Tools & Libraries Used </h2>
 <hr/>
 <ul>
   <b>
-<li> Python - face_recognition - https://github.com/ageitgey/face_recognition </li>
+
 <li> XAMPP - https://www.apachefriends.org/download.html </li>
 <li> Bootstrap - https://getbootstrap.com/ </li>
 <li> CGI </li>
@@ -26,7 +25,7 @@
 - Install Python
 - Install XAMPP
 - Navigate to `htdocs` fodler and clone this project.
-- Open `login.py` and make sure to replace the top comment `#! C:\Python39\python.exe` with your python path.
+- Open `login.py` and make sure to replace the top comment #!'C:\Users\aksha\AppData\Local\Programs\Python\Python310\python.exe' with your python path.
 - Navigate to `htdocs/face-recognition-login-system` and execute the following command `pip install -r requirements.txt`
 - Navigate to `xampp/apache/config` and modify the `httpd.conf` file by adding  
 ```conf
@@ -46,7 +45,7 @@ at the end of the file. Then save & exit
 
 <h2> Making it work for Windows </h2>
 <p>
-Go to the python's installed location , in my case it was (C:\Python39) and right click on the 
+Go to the python's installed location , in my case it was (C:\Python3.10) and right click on the 
 python39 folder and go to security tab and give "Full Control" permission to users
 </p>
 </br/>
@@ -73,9 +72,4 @@ If it did not work, try installing below tools on windows
 - CMAKE
 - Visual Studio with CMAKE Build tools installed
 
-Also to for debugging, ensure to check Apache Error Logs
-![image](https://user-images.githubusercontent.com/36433104/155829373-9b1482f4-f657-4f85-ae76-ff20bcccb2eb.png)
 
-Kindly follow the below Reference issues in case you are stuck 
-https://github.com/ageitgey/face_recognition/issues/1016
-https://stackoverflow.com/questions/51912999/could-not-install-packages-due-to-an-environmenterror-winerror-5-access-is-de
